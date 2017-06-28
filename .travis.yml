@@ -1,0 +1,13 @@
+sudo: required
+
+services:
+  - docker
+
+language: node_js
+
+env:
+  global:
+    - IMAGE_TAG=patrickdappollonio/nodejs-in-docker
+
+script:
+  - docker build -f Dockerfile -t $IMAGE_TAG .
