@@ -4,3 +4,5 @@
 
 This example is based on the official NodeJS blog post about [how to run
 NodeJS applications in Docker](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/).
+
+To run it, simply do a `docker build`.
